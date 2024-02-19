@@ -1,0 +1,33 @@
+.bb-ul
+  {
+    display: flex;
+    justify-content: space-around;
+    
+  }
+
+  .bb-ul li
+  {
+    list-style: none;
+    border:1px solid black;
+    padding: 10px 25px;
+    font-size: 1.25em;
+    background-color: rgba(7, 12, 56, 0.808);
+    color:white;
+    cursor: pointer;
+    margin:10px;
+    border-radius: 5px;
+    text-align: center;
+    
+   
+  }
+
+  .bb-ul li:hover 
+  {
+    background-color: rgba(7, 12, 56, 0.900);
+  }
+
+
+.bb-ul li
+    {
+      width: 90%;
+    }

@@ -1,0 +1,66 @@
+footer 
+{
+  height: 250px;
+  background-color: rgb(158, 160, 161);
+  color:rgb(0, 0, 2);
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  padding: 20px;
+  
+}
+
+footer .footer-flex
+{
+  display: flex;
+  flex-direction: column;
+  gap:8px;
+  font-size: 2rem;
+  
+}
+
+footer > .footer-adress
+{
+  font-size:2rem;
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+}
+
+.footer-adress > .footer-span 
+{
+  font-size: 1.5rem;
+  color:rgb(6, 99, 71);
+}
+
+
+.fa-facebook,.fa-yahoo,.fa-youtube,.fa-mobile
+{
+
+  font-size: 1.25rem;
+  color:rgb(0, 0, 2);
+  margin-top:10px;
+}
+
+.fa-mobile
+{
+font-size: 1.25rem;
+color:green;
+
+}
+
+.fa-youtube
+
+{
+  color:red;
+}
+
+.fa-yahoo
+{
+  color:rgb(9, 9, 31);
+}
+
+.fa-facebook
+{
+  color:blue;
+}
