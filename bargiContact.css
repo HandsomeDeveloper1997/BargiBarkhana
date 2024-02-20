@@ -1,0 +1,90 @@
+body 
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin:0 auto;
+    background-color: rgb(199, 199, 201);
+    
+}
+
+.contactmain
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactnum
+{
+    font-size: 1.5rem;
+    color:green;
+}
+
+.fa-yahoo
+{
+    font-size: 1.5rem;
+    color:purple;
+    margin-top:10px;
+}
+
+.fa-facebook
+{
+    font-size: 1.5rem;
+    color:blue;
+    margin-top:10px;
+    cursor:pointer;
+}
+
+#mainbutton
+{
+    background-color: rgba(7, 12, 56, 0.808);
+    color:white;
+    position: relative;
+    top:-10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border:none;
+}
+
+@media (max-width:760px)
+{
+    .contactmain img
+    {
+       width: 100%;
+    }
+
+    h1 
+    {
+        margin-left: 20px;
+    }
+    
+    .contactmain
+    {
+        line-height:60px;
+    }
+
+
+}
+
+@media (min-width:761px)
+{
+    .contactmain img 
+    {
+        width: 100%;
+    }
+
+    h1 
+    {
+        text-align: center;
+    }
+}

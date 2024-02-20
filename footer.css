@@ -1,12 +1,12 @@
 footer 
 {
-  height: 250px;
+  height: 280px;
   background-color: rgb(158, 160, 161);
   color:rgb(0, 0, 2);
   display: flex;
   justify-content: space-around;
   align-items: baseline;
-  padding: 20px;
+  padding:10px;
   
 }
 
@@ -29,8 +29,9 @@ footer > .footer-adress
 
 .footer-adress > .footer-span 
 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   color:rgb(6, 99, 71);
+  margin-right: 15px;
 }
 
 
@@ -39,7 +40,7 @@ footer > .footer-adress
 
   font-size: 1.25rem;
   color:rgb(0, 0, 2);
-  margin-top:10px;
+  
 }
 
 .fa-mobile

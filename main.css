@@ -28,6 +28,7 @@ main
   border-radius: 5px;
   vertical-align:top;
   height: 450px;
+  cursor: pointer;
  
 }
 

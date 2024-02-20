@@ -1,0 +1,116 @@
+body 
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#mainbutton
+{
+    background-color: rgba(7, 12, 56, 0.808);
+    color:white;
+    position: relative;
+    top:50px;
+    left:10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border:none;
+}
+
+#mainbutton:hover 
+{
+    background-color: rgba(7, 12, 56, 0.9);
+}
+
+
+header
+
+{
+   background-color: rgba(7, 12, 56, 0.808);
+}
+
+header h1
+{
+    text-align: center;
+    font-size:3.5rem;
+    margin:0;
+    padding: 15px;
+    color:white;
+    
+}
+
+h3 
+{
+    text-align: center;
+}
+
+.first-container 
+{
+    display: flex;
+    align-items: center;
+   
+}
+
+.first-container p, .second-container p
+{
+ font-size: 1.25rem;
+ font-weight: bold;
+}
+
+
+.second-container
+{
+background-image: url(./photos/website-page-contact-us-email-600nw-1958537320.webp);
+height: 300px;
+background-size: contain;
+background-repeat:no-repeat;
+background-position: center;
+
+}
+
+
+.second-container p
+{
+    color:rgb(0, 0, 0);
+}
+
+@media (max-width:760px)
+{
+
+.first-container 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:0 20px;
+    
+}
+}
+
+@media (min-width:761px) and (max-width:1160px)
+{
+    .first-container 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:0 20px;
+    
+}
+
+}
+
+@media (min-width:1161px)
+{
+    .first-container 
+{
+    display: flex;
+    align-items: center;
+    margin:0 20px;
+   
+}
+}
+

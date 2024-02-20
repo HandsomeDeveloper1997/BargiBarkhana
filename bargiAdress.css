@@ -1,0 +1,63 @@
+body 
+{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    background-color: rgba(5, 10, 48, 0.808);
+
+}
+
+.mainadress
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mainadress span
+{
+    font-size:1.5rem;
+    color:rgb(187, 187, 187);
+    
+}
+
+.frame 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:20px;
+    gap:10px;
+}
+
+#mainbutton
+{
+    background-color: rgba(6, 167, 46, 0.808);
+    color:white;
+    position: relative;
+    padding: 20px 20px;
+    width: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+    border:none;
+}
+
+@media (min-width:620px)
+{
+    .frame{
+        display: flex;
+        
+        
+
+    }
+}
+
+@media (max-width:1010px)
+{
+   .mainadress span {
+    text-align: center;
+    }
+
+
+}
