@@ -77,40 +77,35 @@ background-position: center;
     color:rgb(0, 0, 0);
 }
 
-@media (max-width:760px)
-{
 
-.first-container 
+@media (max-width:978px)
 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin:0 20px;
-    
-}
+    .aboutphoto
+    {
+        width: 90%;
+    }
+
+   header h1 {
+        font-size: 1.5rem;
+        padding: 0;
+    }
+
+    header 
+    {
+        height:60px;
+    }
 }
 
-@media (min-width:761px) and (max-width:1160px)
+
+
+@media (max-width:1160px)
 {
     .first-container 
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin:0 20px;
-    
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
-}
-
-@media (min-width:1161px)
-{
-    .first-container 
-{
-    display: flex;
-    align-items: center;
-    margin:0 20px;
-   
-}
-}
 
