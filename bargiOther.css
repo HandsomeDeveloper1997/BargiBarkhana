@@ -1,0 +1,115 @@
+body 
+{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(230, 238, 248);
+    padding-bottom: 50px;
+}
+
+
+h1 
+{
+    text-align: center;
+    padding: 10px;
+    border-bottom: 5px solid rgba(6, 19, 133, 0.808);
+    color:rgba(1, 7, 53, 0.808);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.other--main--grid
+{
+    width: 1200px;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+    
+}
+
+.other--section--div 
+{
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgb(90, 63, 240);
+    padding: 10px;
+    background-color: rgb(157, 157, 241);
+    font-size: 1em;
+    
+    
+}
+
+.other--section--div img 
+{
+    width: 100%;
+}
+
+.other--section--name 
+{
+font-size: 1.2em;
+
+}
+
+.other--decoration2 
+{
+    height: 375px;
+}
+
+#main--other--button
+{
+  background-color: rgba(8, 50, 165, 0.808);
+  color:white;
+  position: relative;
+  padding: 15px 15px;
+  width: 150px;
+  border-radius: 5px;
+  cursor: pointer;
+  border:none;
+  position: fixed;
+  top:20px;
+  left:20px;
+}
+
+
+
+@media (max-width:720px)
+{
+
+  .other--main--grid
+  {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 300px;
+  }
+
+
+}
+
+
+
+ @media (min-width:791px) and (max-width:1119px)
+ {
+   .other--main--grid
+  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 750px;
+  }
+
+ 
+ }
+
+
+ 
+
+@media (min-width:1120px)
+{
+  .other--main--grid 
+  {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

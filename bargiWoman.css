@@ -1,0 +1,114 @@
+body 
+{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(248, 222, 248);
+    padding-bottom: 50px;
+}
+
+h1 
+{
+    text-align: center;
+    padding: 10px;
+    border-bottom: 5px solid rgba(182, 12, 159, 0.808);
+    color:rgba(242, 17, 250, 0.808);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.woman--main--grid
+{
+    width: 1200px;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+    
+}
+
+.woman--section--div 
+{
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgb(153, 31, 209);
+    padding: 10px;
+    background-color: rgb(205, 140, 235);
+    font-size: 1.2em;
+    gap:5px;
+    
+}
+
+.woman--section--div img 
+{
+    width: 100%;
+}
+
+.woman--section--name 
+{
+font-size: 1.25em;
+
+}
+
+.woman--decoration2 
+{
+    height: 375px;
+}
+
+#woman--other--button
+{
+  background-color: rgba(160, 8, 165, 0.808);
+  color:white;
+  position: relative;
+  padding: 15px 15px;
+  width: 150px;
+  border-radius: 5px;
+  cursor: pointer;
+  border:none;
+  position: fixed;
+  top:20px;
+  left:20px;
+}
+
+
+
+@media (max-width:720px)
+{
+
+  .woman--main--grid
+  {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 300px;
+  }
+
+
+}
+
+
+
+ @media (min-width:791px) and (max-width:1119px)
+ {
+   .woman--main--grid
+  {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 750px;
+  }
+
+ 
+ }
+
+
+ 
+
+@media (min-width:1120px)
+{
+  .woman--main--grid 
+  {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
