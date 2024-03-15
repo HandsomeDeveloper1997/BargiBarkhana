@@ -32,6 +32,11 @@ main
  
 }
 
+.man-section,.woman-section,.baby-section,.other-section,.tool-section,.cosmetic-section a 
+{
+  text-align:center;
+}
+
 
 
 .main-grid
