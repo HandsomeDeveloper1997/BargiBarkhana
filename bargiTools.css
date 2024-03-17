@@ -71,7 +71,7 @@ h1 {
 
 @media (max-width:720px) {
 
-  .man--main--grid {
+  .tools--main--grid {
     display: grid;
     grid-template-columns: 1fr;
     width: 300px;
@@ -83,7 +83,7 @@ h1 {
 
 
 @media (min-width:791px) and (max-width:1119px) {
-  .man--main--grid {
+  .tools--main--grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 750px;
@@ -96,7 +96,7 @@ h1 {
 
 
 @media (min-width:1120px) {
-  .man--main--grid {
+  .tools--main--grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
