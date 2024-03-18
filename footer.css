@@ -35,7 +35,7 @@ footer > .footer-adress
 }
 
 
-.fa-facebook,.fa-yahoo,.fa-youtube,.fa-mobile
+.fa-facebook,.fa-yahoo,.fa-mobile
 {
 
   font-size: 1.25rem;
@@ -50,11 +50,7 @@ color:green;
 
 }
 
-.fa-youtube
 
-{
-  color:red;
-}
 
 .fa-yahoo
 {
